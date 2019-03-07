@@ -1,1 +1,77 @@
+body {
+  background-image: url(image/shop.png);
+  background-size: cover;
+}
 
+
+.orderContainer{
+    left: 200px;
+    right:200px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+ 
+/* .kitchen{
+
+     margin-left: 360px;
+    margin-top: 230px;
+    padding: 200px 220px 260px 180px;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+} */
+
+#chef {
+top:400px;
+left:450px;
+position: relative;
+/* position: absolute;
+background-position: top -400px right -400px; */
+height: 100px;
+width: 50px;
+}
+
+
+.rightPose{
+    background-image: url(image/chef_right.png);
+}
+
+.upPose{
+background-image: url(image/chef_back.png) !important;
+}
+
+.leftPose{
+    background-image: url(image/dish_left_1.png) !important;
+    height: 80px;
+    width: 50px; 
+} 
+
+.downPose{
+    background-image: url(image/dish_down_1.png) !important;
+
+}
+
+
+.dishContainer{
+    margin-left: 400px;
+    margin-top:37px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.dish{ 
+    margin: 5px;
+    text-align:center;
+
+}
+
+
+/* .dish1{
+    display: flex;
+    left:350px;
+    top:200px;
+    height:20px;
+    width:auto;
+} */
