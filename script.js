@@ -14,16 +14,6 @@ const UP = 38
 
 // Sushi Chef is holding
 let sushiChefHolds = ""
-
-// const moveChef = function ( event ) {
-//     var key = event.which || event.keyCode;
-//     if ( key === 39 ) {
-//         console.log( firstPosition.style.marginleft.value + '100px' )
-//     }
-// }
-// moveChef()
-
-//`${firstPosition.style.marginleft.value + 100}` + 'px'
 let countHe = 400;
 let countVe = 400;
 document.addEventListener( 'keydown', function ( e ) {
