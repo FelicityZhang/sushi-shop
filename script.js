@@ -96,18 +96,6 @@ const getDish = function () {
     let n = getRandomInt( 0, Dishs.length )
     console.log( getOrder.childNodes[ 1 ].src )
     getOrder.childNodes[ 1 ].src = Dishs[ n ].childNodes[ 1 ].src
-
-    // deliDish.addEventListener( 'click', function ( event ) {
-    //     if ( countHe != 400 ) {
-    //         return
-    //     }
-    //     else {
-    //         const difference = Math.abs( event.screenY - countVe )
-    //         if ( difference < 50 )
-    //             deliDish.src = allDishs[ n ].childNodes[ 1 ].src
-
-    //     }
-    // } )
 }
 setInterval( getDish, 5000 )
 
