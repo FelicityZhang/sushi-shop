@@ -5,73 +5,103 @@ body {
 
 
 .orderContainer{
-    left: 200px;
-    right:200px;
-    border: 2px solid black;
-    height: 100px;
-    width: 100px;
+    margin-left: 225px;
+    margin-top:280px;
+    height: 70px;
+    width: 130px;
+    display: absolute;
 }
  
-/* .kitchen{
+#deliContainer{
+    margin-left: 230px;
+    margin-top:33px;
+    border: 2px solid grey;
+    height: 100px;
+    width: 100px;
+    display: absolute; 
+    background-color: white;
+    border-radius: 50%;
+}
 
-     margin-left: 360px;
-    margin-top: 230px;
-    padding: 200px 220px 260px 180px;
-    border: 2px solid black;
-    width: 300px;
-    text-align: center;
-} */
+
+#deliImage{
+padding-left:8px;
+}
+
 
 #chef {
 top:400px;
-left:450px;
+left:430px;
 position: relative;
-/* position: absolute;
-background-position: top -400px right -400px; */
+
 height: 100px;
 width: 50px;
 }
 
-
 .rightPose{
-    background-image: url(image/chef_right.png);
+    background-image: url(image/right.png);
+}
+.rightDishPose{
+    background-image: url(image/rightdish.png);
+    max-width: 500px;
+    height: 100px;
 }
 
 .upPose{
-background-image: url(image/chef_back.png) !important;
+background-image: url(image/back.png) !important;
+
+height: 80px;
+width: 50px; 
 }
 
-.leftPose{
-    background-image: url(image/dish_left_1.png) !important;
+.leftDishPose{
+    background-image: url(image/left.png) !important;
     height: 80px;
     width: 50px; 
 } 
 
-.downPose{
-    background-image: url(image/dish_down_1.png) !important;
+.leftPose{
+    background-image: url(image/leftfree.png) !important;
 
 }
 
+.downDishPose{
+    background-image: url(image/front.png) !important;
+
+}
+
+.downPose{
+    background-image: url(image/down.png) !important;
+
+}
+
+.lookPose{
+    background-image:url(image/look.png) !important;
+}
+.otherPose{
+    background-image: url(image/image1/Screen\ Shot\ 2019-03-05\ at\ 3.06.51\ PM.png) !important;
+
+}
 
 .dishContainer{
-    margin-left: 400px;
-    margin-top:37px;
     display: flex;
     flex-wrap: wrap;
-
+    left:400px;
+    top:140px;
+    height:0px;
+    width:700px;
+    position: absolute;
+   
 }
 
 .dish{ 
     margin: 5px;
     text-align:center;
-
 }
 
 
-/* .dish1{
-    display: flex;
-    left:350px;
-    top:200px;
-    height:20px;
-    width:auto;
-} */
+
+.bell{
+    margin-left:370px;
+    margin-top: 28px;
+}
